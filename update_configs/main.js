@@ -28,4 +28,4 @@ setInterval(() => {
 			fs.writeFile("../external_configs.json", JSON.stringify(externalConfigs), function(err) {
 			}); 
 		});
-}, 1*60*60*1000);
+}, 5000);
